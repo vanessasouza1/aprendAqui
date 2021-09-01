@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+:root {
+	--main-color: rgba(148,0,211,1);
+	--text-color: #808080;
+	--logo-color: #17a2b8;
+}
+
+:root{
+	--font-family-logo: Lobster;
+	
+}
+
+
+body{
+	
+	
+}
+
+.navbar{
+	position: fixed; 
+	width: 100%;
+	
+	background-color: transparent!important;
+	/*line-height: 2;*/
+}
+
+.navbar.scrolled {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+  }
+
+.logo{
+	font-family: var(--font-family-logo);
+	margin-bottom: 0;
+	
+	letter-spacing: 1px;
+}
+
+
+.navbar-light .navbar-brand{
+	color: var(--logo-color);
+}
+
+.navbar-light .navbar-brand:hover{
+	color: var(--logo-color);
+}
+
+.navbar-nav li{
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+#banner img{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	object-fit:cover; 
+
+}
+
+#banner{
+	
+}
+
+.btn{
+	font-weight: 500;
+}
